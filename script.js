@@ -8,13 +8,13 @@ const getSum = () => {
 	let sum=0;
 	arr.forEach(item)=>
 	{
-		sum+=parseInt(item.innertext);
+		sum+=parseInt(item.innerText);
 	});
 let row=document.createElement("tr");
 let cell1=document.createElement("td");
-	cell1.innertext="Total is: ";
+	cell1.innerText="Total is: ";
 	let cell2=document.createElement("td");
-	cell2.innertext=sum;
+	cell2.innerText=sum;
 	row.appendChild(cell1)
 	row.appendChild(cell2)
 	table.appendChild(row)
