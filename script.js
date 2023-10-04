@@ -4,8 +4,6 @@ document.body.appendChild(getSumBtn);
 let table=document.getElementById("table")
 const getSum = () => {
 //Add your code here
-  let arr=Array.from(document.getElementByClassName("price"));
-	alert(arr.innertext);
 	let arr=Array.from(document.querySelectorAll(".price"));
 	let sum=0;
 	arr.forEach(item)=>
